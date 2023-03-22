@@ -15,5 +15,4 @@ Is it simple to use? Yes
 
 # License
 
-D
-
+Beerware license, nothing fancy
