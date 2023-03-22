@@ -17,20 +17,20 @@ def mean(lst):
 
 # https://www.youtube.com/watch?v=31Wjc9vZv1s
 class ProgressBar:
-    def __init__(self, iterable, max_steps=0):
+    def __init__(self, iterable, max_steps=0, display_size=40):
         if max_steps <= 0:
             self.max_steps = len(iterable)
         else:
             self.max_steps = max_steps
         self.current_iter = 0
         self.wrapped_iter = iter(iterable)
-        self.print_size = 20
+        self.display_size = display_size
         
     def _print(self):
         percentage_complete = self.current_iter / self.max_steps
-        num_symbols = round(self.print_size * percentage_complete)
+        num_symbols = round(self.display_size * percentage_complete)
         
-        print("[" + "#" * num_symbols + "=" * (self.print_size-num_symbols) + "]" + f" {percentage_complete * 100:.2f}%",end="\r",sep="")
+        print("[" + "#" * num_symbols + "=" * (self.display_size-num_symbols) + "]" + f" {percentage_complete * 100:.2f}%",end="\r",sep="")
         
     def __iter__(self):
         while self.current_iter < self.max_steps:
