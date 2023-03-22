@@ -2,7 +2,7 @@
 
 Often when prototyping I need to install a library run into dependency issues (old libs or just conflicts with common ML libs). 
 
-This library has no dependencies, so no depedency issues.
+This library has no dependencies, so no dependency issues.
 
 ## Summary
 
@@ -12,4 +12,8 @@ Is it fast? No
 Is it complete? No
 Is it reliable? Ehhh somewhat
 Is it simple to use? Yes
+
+# License
+
+D
 
