@@ -3,7 +3,7 @@ from math import log,exp
 import pickle
 from string import punctuation
 
-from utils import ProgressBar
+from utils import ProgressBar,mean,n_grammer
 
 # TODO: Add epsilon to avoid numeric issues
 eps = 10e-12
@@ -41,12 +41,6 @@ class Vocab:
     
     def __len__(self):
         return len(self.stoi)
-        
-def n_grammer(tokens, n):
-    return [tuple(tokens[i:i+n]) for i in range(len(tokens)-(n-1))]
-
-def mean(lst):
-    return sum(lst)/len(lst)
     
 class NGramLM:
     def __init__(self, n):

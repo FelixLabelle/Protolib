@@ -1,3 +1,4 @@
+import math
 import pickle
 
 class PickleBaseClass:
@@ -11,10 +12,22 @@ class PickleBaseClass:
     def load(self, filename):
         with open(filename +'.pkl','rb') as fh:
             self.__dict__ = pickle.load(fh)
-            
+
+def clip(val,limit):
+    return min(val,limit)
+    
 def mean(lst):
     return sum(lst)/len(lst)
 
+def geometric_mean(lst,weights=[],eps=0):
+    assert(not weights or len(weights) == len(lst))
+    if not weights:
+        weights = [1 for i in range(len(lst))]
+    return math.exp(mean([weight * math.log(item+eps) for weight, item in zip(weights,lst)]))
+
+def n_grammer(tokens, n):
+    return [tuple(tokens[i:i+n]) for i in range(len(tokens)-(n-1))]
+    
 # https://www.youtube.com/watch?v=31Wjc9vZv1s
 class ProgressBar:
     def __init__(self, iterable, max_steps=0, display_size=40):
