@@ -1,5 +1,7 @@
+import datetime
 import math
 import pickle
+import time
 
 class PickleBaseClass:
     def __init__(self):
@@ -35,21 +37,32 @@ class ProgressBar:
             self.max_steps = len(iterable)
         else:
             self.max_steps = max_steps
-        self.current_iter = 0
+        
         self.wrapped_iter = iter(iterable)
         self.display_size = display_size
+    
+    def _estimate_time(self):
+        time_elapsed = time.time() - self.start_time
+        average_time_elapsed = time_elapsed/self.current_iter
+        estimated_time_remaining = average_time_elapsed * self.max_steps
+        time_elapsed_str = datetime.timedelta(seconds=(time_elapsed))
+        estimated_time_remaining_str = datetime.timedelta(seconds=(estimated_time_remaining))
+        
+        return time_elapsed_str, estimated_time_remaining_str
         
     def _print(self):
         percentage_complete = self.current_iter / self.max_steps
         num_symbols = round(self.display_size * percentage_complete)
-        
-        print("[" + "#" * num_symbols + "=" * (self.display_size-num_symbols) + "]" + f" {percentage_complete * 100:.2f}%",end="\r",sep="")
+        time_to_date, time_remaining = self._estimate_time()
+        print("[" + "#" * num_symbols + "=" * (self.display_size-num_symbols) + "]" + f" {percentage_complete * 100:.2f}%" + f" {time_to_date}:{time_remaining}",end="\r",sep="")
         
     def __iter__(self):
+        self.start_time = time.time()
+        self.current_iter = 0
         while self.current_iter < self.max_steps:
-            self._print()
             yield next(self.wrapped_iter)
             self.current_iter += 1
+            self._print()
         print()
     def __len__(self):
         return self.max_steps

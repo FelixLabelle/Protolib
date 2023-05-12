@@ -1,70 +1,11 @@
 from collections import defaultdict
 from math import log,exp
-import pickle
-from string import punctuation
 
 from .utils import ProgressBar,mean,n_grammer, PickleBaseClass
+from tokenizers import Tokenizer
 
 # TODO: Add epsilon to avoid numeric issues
 eps = 10e-12
-
-class Tokenizer(PickleBaseClass):
-    def __init__(self, tokenizer, custom_stoi = None):
-        '''
-            Inputs:
-                tokenizer: function that takes in a string and returns and array of string (tokens)
-                custom_stoi: a dictionary that maps strings to numbers, these are your special chars. You can add as many of these as you'd like
-            Outputs:
-                None
-        '''
-        self.SOS = "<SOS>"
-        self.EOS = "<EOS>"
-        self.PAD = "<PAD>"
-        self.UNK = "<UNK>"
-        if type(custom_stoi) == dict:
-            self.stoi = custom_stoi
-        else: 
-            self.stoi = {self.SOS:0,
-            self.EOS:1,
-            self.UNK:2,
-            self.PAD:3}
-            
-        self.itos = {}
-        self.counts = defaultdict(int)
-        self.tokenizer = tokenizer
-        
-    def train(self, corpus, min_tok_count=1):
-        '''
-            Inputs:
-                corpus: array of strings representing your corpus (each string is an item
-                [OPTIONAL] min_tok_count: an integer in range [1,inf] which filters out rare words
-            Outputs:
-                None
-        '''
-        assert(type(min_tok_count) == int)
-        assert(min_tok_count >= 1)
-        for datum in ProgressBar(corpus):
-            for token in self.tokenizer(datum):
-                self.counts[token] += 1
-        
-        for token, count in self.counts.items():
-            if count >= min_tok_count:
-                self.stoi[token] = len(self.stoi)
-                
-                
-        self.itos = {idx:key for key,idx in self.stoi.items()}
-        
-    def tokenize(self, string):
-        return [token if token in self.stoi else self.UNK for token in self.tokenizer(string)]
-    
-    def encode(self, string):
-        return [self.stoi.get(token,self.stoi[self.UNK]) for token in self.tokenizer(string)]
-        
-    def decode(self, symbols):
-        return [self.itos.get(symbol ,self.UNK) for symbol in symbols]
-        
-    def __len__(self):
-        return len(self.stoi)
     
 class NGramLM(PickleBaseClass):
     def __init__(self, n):
@@ -100,14 +41,6 @@ class NGramLM(PickleBaseClass):
     def calculate_perplexity(self, text):
         n_grams = self._preprocess_text(text)
         return exp(-mean([self.__call__(n_gram) for n_gram in n_grams]))
-    
-    def save(self, filename):
-        with open(filename +'.pkl','wb') as fh:
-            pickle.dump(self.__dict__,fh)
-        
-    def load(self, filename):
-        with open(filename +'.pkl','rb') as fh:
-            self.__dict__ = pickle.load(fh)
         
 class AddKSmoothingNGramLM(NGramLM):
     def __init__(self, n,k):
@@ -174,18 +107,6 @@ class InterpolatedNGramLM(NGramLM):
         
 # TODO: Add kneser-neys
 
-def space_split(txt):
-    return txt.split()
-'''
-def punctuation_split(txt):
-    tokens = [""]
-    for char in txt:
-        is_not_white_space = bool(char.strip())
-        if char not in punctuation and is_not_white_space:
-            tokens[-1] += char
-        elif char in punctuation:
-            tokens.append(
-'''
 
 if __name__ == "__main__":
     import pdb;pdb.set_trace()
