@@ -1,19 +1,28 @@
 from collections import defaultdict
+import re
 
 from .utils import ProgressBar, PickleBaseClass
 
 def space_split(txt):
+    '''
+        Inputs:
+            txt: string to tokenize
+        Outputs:
+            tokens: list of strings
+    '''
     return txt.split()
-'''
-def punctuation_split(txt):
-    tokens = [""]
-    for char in txt:
-        is_not_white_space = bool(char.strip())
-        if char not in punctuation and is_not_white_space:
-            tokens[-1] += char
-        elif char in punctuation:
-            tokens.append(
-'''
+
+def punc_split(txt):
+    '''
+        regex based tokenizer that seperates words, numbers, and punctuation
+        Inputs:
+            txt: string to tokenize
+        Outputs:
+            tokens: list of strings
+    '''
+    # Matches letters only, digits only,
+    # anything else that is not a white space
+    return list(re.findall(r"\w+|\$[\d\.]+|\S+",txt))
 
 class Tokenizer(PickleBaseClass):
     def __init__(self, tokenizer, additional_special_tokens = None):
@@ -28,11 +37,14 @@ class Tokenizer(PickleBaseClass):
         self.EOS = "<EOS>"
         self.UNK = "<UNK>"
         self.PAD = "<PAD>"
-        
-        self.stoi = {self.SOS:0,
-        self.EOS:1,
-        self.UNK:2,
-        self.PAD:3}
+        self.SOS_IDX = 0
+        self.EOS_IDX = 1
+        self.UNK_IDX = 2
+        self.PAD_IDX = 3        
+        self.stoi = {self.SOS:self.SOS_IDX,
+            self.EOS:self.EOS_IDX,
+            self.UNK:self.UNK_IDX,
+            self.PAD:self.PAD_IDX}
         
         if type(additional_special_tokens) == dict:
             self.stoi.update(additional_special_tokens)
