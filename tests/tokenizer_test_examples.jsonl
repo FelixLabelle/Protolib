@@ -1,0 +1,163 @@
+{"test_type": "No punctuation, mixed case", "input_text": "The sun sets on a tranquil horizon", "expected_tokens": ["The", "sun", "sets", "on", "a", "tranquil", "horizon"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Birds soar above mountains in flight", "expected_tokens": ["Birds", "soar", "above", "mountains", "in", "flight"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Waves crash against rocky shores", "expected_tokens": ["Waves", "crash", "against", "rocky", "shores"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Flowers bloom in a lush garden", "expected_tokens": ["Flowers", "bloom", "in", "a", "lush", "garden"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Children play in fields of green", "expected_tokens": ["Children", "play", "in", "fields", "of", "green"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Rivers meander through the countryside", "expected_tokens": ["Rivers", "meander", "through", "the", "countryside"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Stars twinkle in the midnight sky", "expected_tokens": ["Stars", "twinkle", "in", "the", "midnight", "sky"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Raindrops fall gently on the earth", "expected_tokens": ["Raindrops", "fall", "gently", "on", "the", "earth"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A cat prowls through the dark alley", "expected_tokens": ["A", "cat", "prowls", "through", "the", "dark", "alley"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Fire crackles and dances in the fireplace", "expected_tokens": ["Fire", "crackles", "and", "dances", "in", "the", "fireplace"]}
+{"test_type": "No punctuation, mixed case", "input_text": "The wind whispers through the trees", "expected_tokens": ["The", "wind", "whispers", "through", "the", "trees"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Snow blankets the quiet town", "expected_tokens": ["Snow", "blankets", "the", "quiet", "town"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Leaves rustle underfoot as I walk", "expected_tokens": ["Leaves", "rustle", "underfoot", "as", "I", "walk"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A dog barks in the distance", "expected_tokens": ["A", "dog", "barks", "in", "the", "distance"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Lightning illuminates the stormy sky", "expected_tokens": ["Lightning", "illuminates", "the", "stormy", "sky"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Waves gently lap against the shore", "expected_tokens": ["Waves", "gently", "lap", "against", "the", "shore"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Bees buzz around colorful flowers", "expected_tokens": ["Bees", "buzz", "around", "colorful", "flowers"]}
+{"test_type": "No punctuation, mixed case", "input_text": "The moon shines brightly overhead", "expected_tokens": ["The", "moon", "shines", "brightly", "overhead"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A butterfly flutters by gracefully", "expected_tokens": ["A", "butterfly", "flutters", "by", "gracefully"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Thunder rumbles in the cloudy sky", "expected_tokens": ["Thunder", "rumbles", "in", "the", "cloudy", "sky"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Crickets chirp in the warm summer night", "expected_tokens": ["Crickets", "chirp", "in", "the", "warm", "summer", "night"]}
+{"test_type": "No punctuation, mixed case", "input_text": "I wander through a maze of thoughts", "expected_tokens": ["I", "wander", "through", "a", "maze", "of", "thoughts"]}
+{"test_type": "No punctuation, mixed case", "input_text": "The scent of fresh bread fills the air", "expected_tokens": ["The", "scent", "of", "fresh", "bread", "fills", "the", "air"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A spider weaves its intricate web", "expected_tokens": ["A", "spider", "weaves", "its", "intricate", "web"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A squirrel scampers up a tree trunk", "expected_tokens": ["A", "squirrel", "scampers", "up", "a", "tree", "trunk"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Soft music plays in the background", "expected_tokens": ["Soft", "music", "plays", "in", "the", "background"]}
+{"test_type": "No punctuation, mixed case", "input_text": "I gaze at a painting on the wall", "expected_tokens": ["I", "gaze", "at", "a", "painting", "on", "the", "wall"]}
+{"test_type": "No punctuation, mixed case", "input_text": "The smell of coffee wakes me up", "expected_tokens": ["The", "smell", "of", "coffee", "wakes", "me", "up"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Books line the shelves in the library", "expected_tokens": ["Books", "line", "the", "shelves", "in", "the", "library"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A gentle breeze rustles the leaves", "expected_tokens": ["A", "gentle", "breeze", "rustles", "the", "leaves"]}
+{"test_type": "No punctuation, mixed case", "input_text": "I close my eyes and drift away", "expected_tokens": ["I", "close", "my", "eyes", "and", "drift", "away"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A ship sails across the vast ocean", "expected_tokens": ["A", "ship", "sails", "across", "the", "vast", "ocean"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A violin sings a melancholy tune", "expected_tokens": ["A", "violin", "sings", "a", "melancholy", "tune"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Mountains stretch as far as the eye can see", "expected_tokens": ["Mountains", "stretch", "as", "far", "as", "the", "eye", "can", "see"]}
+{"test_type": "No punctuation, mixed case", "input_text": "The smell of rain is in the air", "expected_tokens": ["The", "smell", "of", "rain", "is", "in", "the", "air"]}
+{"test_type": "No punctuation, mixed case", "input_text": "I watch the waves crash on the shore", "expected_tokens": ["I", "watch", "the", "waves", "crash", "on", "the", "shore"]}
+{"test_type": "No punctuation, mixed case", "input_text": "The sound of laughter fills the room", "expected_tokens": ["The", "sound", "of", "laughter", "fills", "the", "room"]}
+{"test_type": "No punctuation, mixed case", "input_text": "Autumn leaves fall from the trees", "expected_tokens": ["Autumn", "leaves", "fall", "from", "the", "trees"]}
+{"test_type": "No punctuation, mixed case", "input_text": "The taste of chocolate melts on my tongue", "expected_tokens": ["The", "taste", "of", "chocolate", "melts", "on", "my", "tongue"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A robin sings its morning song", "expected_tokens": ["A", "robin", "sings", "its", "morning", "song"]}
+{"test_type": "No punctuation, mixed case", "input_text": "I feel the warmth of the sun on my face", "expected_tokens": ["I", "feel", "the", "warmth", "of", "the", "sun", "on", "my", "face"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A squirrel gathers acorns for the winter", "expected_tokens": ["A", "squirrel", "gathers", "acorns", "for", "the", "winter"]}
+{"test_type": "No punctuation, mixed case", "input_text": "The smell of flowers fills my senses", "expected_tokens": ["The", "smell", "of", "flowers", "fills", "my", "senses"]}
+{"test_type": "No punctuation, mixed case", "input_text": "I watch the stars twinkle in the night sky", "expected_tokens": ["I", "watch", "the", "stars", "twinkle", "in", "the", "night", "sky"]}
+{"test_type": "No punctuation, mixed case", "input_text": "The sound of waves soothes my soul", "expected_tokens": ["The", "sound", "of", "waves", "soothes", "my", "soul"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A gentle touch brings comfort and peace", "expected_tokens": ["A", "gentle", "touch", "brings", "comfort", "and", "peace"]}
+{"test_type": "No punctuation, mixed case", "input_text": "I breathe in the crisp fresh air", "expected_tokens": ["I", "breathe", "in", "the", "crisp", "fresh", "air"]}
+{"test_type": "No punctuation, mixed case", "input_text": "A rainbow stretches across the sky", "expected_tokens": ["A", "rainbow", "stretches", "across", "the", "sky"]}
+{"test_type": "No punctuation, mixed case", "input_text": "I hear the distant call of a bird", "expected_tokens": ["I", "hear", "the", "distant", "call", "of", "a", "bird"]}
+{"test_type": "No punctuation, mixed case", "input_text": "The world is full of endless possibilities", "expected_tokens": ["The", "world", "is", "full", "of", "endless", "possibilities"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The sun sets on a tranquil horizon.", "expected_tokens": ["The", "sun", "sets", "on", "a", "tranquil", "horizon", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "Birds soar above mountains in flight!", "expected_tokens": ["Birds", "soar", "above", "mountains", "in", "flight", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "Waves crash against rocky shores...", "expected_tokens": ["Waves", "crash", "against", "rocky", "shores", "..."]}
+{"test_type": "Punctuation, mixed case", "input_text": "Flowers bloom in a lush garden?", "expected_tokens": ["Flowers", "bloom", "in", "a", "lush", "garden", "?"]}
+{"test_type": "Punctuation, mixed case", "input_text": "Children play in fields of green!", "expected_tokens": ["Children", "play", "in", "fields", "of", "green", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "Rivers meander through the countryside...", "expected_tokens": ["Rivers", "meander", "through", "the", "countryside", "..."]}
+{"test_type": "Punctuation, mixed case", "input_text": "Stars twinkle in the midnight sky.", "expected_tokens": ["Stars", "twinkle", "in", "the", "midnight", "sky", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "Raindrops fall gently on the earth.", "expected_tokens": ["Raindrops", "fall", "gently", "on", "the", "earth", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "A cat prowls through the dark alley?", "expected_tokens": ["A", "cat", "prowls", "through", "the", "dark", "alley", "?"]}
+{"test_type": "Punctuation, mixed case", "input_text": "Fire crackles and dances in the fireplace.", "expected_tokens": ["Fire", "crackles", "and", "dances", "in", "the", "fireplace", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The wind whispers through the trees...", "expected_tokens": ["The", "wind", "whispers", "through", "the", "trees", "..."]}
+{"test_type": "Punctuation, mixed case", "input_text": "Snow blankets the quiet town!", "expected_tokens": ["Snow", "blankets", "the", "quiet", "town", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "Leaves rustle underfoot as I walk.", "expected_tokens": ["Leaves", "rustle", "underfoot", "as", "I", "walk", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "A dog barks in the distance!", "expected_tokens": ["A", "dog", "barks", "in", "the", "distance", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "Lightning illuminates the stormy sky.", "expected_tokens": ["Lightning", "illuminates", "the", "stormy", "sky", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The clock ticks relentlessly on.", "expected_tokens": ["The", "clock", "ticks", "relentlessly", "on", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "A butterfly flutters delicately by.", "expected_tokens": ["A", "butterfly", "flutters", "delicately", "by", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "Laughter echoes through the room!", "expected_tokens": ["Laughter", "echoes", "through", "the", "room", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The door creaks open in the old house.", "expected_tokens": ["The", "door", "creaks", "open", "in", "the", "old", "house", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The train whistles in the distance...", "expected_tokens": ["The", "train", "whistles", "in", "the", "distance", "..."]}
+{"test_type": "Punctuation, mixed case", "input_text": "Music fills the air with joyful melodies.", "expected_tokens": ["Music", "fills", "the", "air", "with", "joyful", "melodies", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "Rainbows arch across the sky!", "expected_tokens": ["Rainbows", "arch", "across", "the", "sky", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The moon glows brightly in the night.", "expected_tokens": ["The", "moon", "glows", "brightly", "in", "the", "night", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The baby giggles with pure delight!", "expected_tokens": ["The", "baby", "giggles", "with", "pure", "delight", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "Rain trickles down the windowpane...", "expected_tokens": ["Rain", "trickles", "down", "the", "windowpane", "..."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The car races down the empty highway.", "expected_tokens": ["The", "car", "races", "down", "the", "empty", "highway", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The bird sings a sweet melody.", "expected_tokens": ["The", "bird", "sings", "a", "sweet", "melody", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "Stars shimmer in the velvet night...", "expected_tokens": ["Stars", "shimmer", "in", "the", "velvet", "night", "..."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The kettle whistles on the stove!", "expected_tokens": ["The", "kettle", "whistles", "on", "the", "stove", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "I run through fields of golden wheat.", "expected_tokens": ["I", "run", "through", "fields", "of", "golden", "wheat", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The candle flickers in the dark.", "expected_tokens": ["The", "candle", "flickers", "in", "the", "dark", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The waterfall cascades down the rocks!", "expected_tokens": ["The", "waterfall", "cascades", "down", "the", "rocks", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "A shooting star streaks across the sky.", "expected_tokens": ["A", "shooting", "star", "streaks", "across", "the", "sky", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The bell tolls in the distance...", "expected_tokens": ["The", "bell", "tolls", "in", "the", "distance", "..."]}
+{"test_type": "Punctuation, mixed case", "input_text": "Fireworks explode in a burst of color!", "expected_tokens": ["Fireworks", "explode", "in", "a", "burst", "of", "color", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "A rainbow shines after the rain.", "expected_tokens": ["A", "rainbow", "shines", "after", "the", "rain", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The clock chimes twelve times at midnight.", "expected_tokens": ["The", "clock", "chimes", "twelve", "times", "at", "midnight", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The boat sails across the calm sea!", "expected_tokens": ["The", "boat", "sails", "across", "the", "calm", "sea", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "Butterflies flutter among blooming flowers.", "expected_tokens": ["Butterflies", "flutter", "among", "blooming", "flowers", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The door slams shut with a loud bang.", "expected_tokens": ["The", "door", "slams", "shut", "with", "a", "loud", "bang", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "I dance freely in the pouring rain!", "expected_tokens": ["I", "dance", "freely", "in", "the", "pouring", "rain", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The thunder roars in the distance...", "expected_tokens": ["The", "thunder", "roars", "in", "the", "distance", "..."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The pen glides smoothly across the paper.", "expected_tokens": ["The", "pen", "glides", "smoothly", "across", "the", "paper", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The roller coaster speeds down the track!", "expected_tokens": ["The", "roller", "coaster", "speeds", "down", "the", "track", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "I smile as the sun kisses my face.", "expected_tokens": ["I", "smile", "as", "the", "sun", "kisses", "my", "face", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The wind howls through the night...", "expected_tokens": ["The", "wind", "howls", "through", "the", "night", "..."]}
+{"test_type": "Punctuation, mixed case", "input_text": "A hot air balloon floats in the sky.", "expected_tokens": ["A", "hot", "air", "balloon", "floats", "in", "the", "sky", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The clock ticks steadily on and on.", "expected_tokens": ["The", "clock", "ticks", "steadily", "on", "and", "on", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The fire crackles and pops in the hearth.", "expected_tokens": ["The", "fire", "crackles", "and", "pops", "in", "the", "hearth", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The waves crash against the rocky shore!", "expected_tokens": ["The", "waves", "crash", "against", "the", "rocky", "shore", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The airplane soars through the fluffy clouds.", "expected_tokens": ["The", "airplane", "soars", "through", "the", "fluffy", "clouds", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "I dream of traveling to distant lands.", "expected_tokens": ["I", "dream", "of", "traveling", "to", "distant", "lands", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The laughter of children fills the air!", "expected_tokens": ["The", "laughter", "of", "children", "fills", "the", "air", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The clock strikes midnight with a chime.", "expected_tokens": ["The", "clock", "strikes", "midnight", "with", "a", "chime", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The rain pitter-patters on the roof...", "expected_tokens": ["The", "rain", "pitter-patters", "on", "the", "roof", "..."]}
+{"test_type": "Punctuation, mixed case", "input_text": "I dance under the sparkling disco ball!", "expected_tokens": ["I", "dance", "under", "the", "sparkling", "disco", "ball", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The mountain peaks touch the sky.", "expected_tokens": ["The", "mountain", "peaks", "touch", "the", "sky", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The birds chirp merrily in the trees.", "expected_tokens": ["The", "birds", "chirp", "merrily", "in", "the", "trees", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "A shooting star grants a secret wish!", "expected_tokens": ["A", "shooting", "star", "grants", "a", "secret", "wish", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The clock ticks away the passing hours.", "expected_tokens": ["The", "clock", "ticks", "away", "the", "passing", "hours", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The waves gently lap against the sandy shore.", "expected_tokens": ["The", "waves", "gently", "lap", "against", "the", "sandy", "shore", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The rainbows appear after a rainstorm!", "expected_tokens": ["The", "rainbows", "appear", "after", "a", "rainstorm", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The sunflowers bloom in the summer sun.", "expected_tokens": ["The", "sunflowers", "bloom", "in", "the", "summer", "sun", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "I listen to the gentle whisper of the wind.", "expected_tokens": ["I", "listen", "to", "the", "gentle", "whisper", "of", "the", "wind", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The roller coaster twists and turns with excitement!", "expected_tokens": ["The", "roller", "coaster", "twists", "and", "turns", "with", "excitement", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "I watch as the autumn leaves fall to the ground.", "expected_tokens": ["I", "watch", "as", "the", "autumn", "leaves", "fall", "to", "the", "ground", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The rainstorm pounds on the roof!", "expected_tokens": ["The", "rainstorm", "pounds", "on", "the", "roof", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The seagulls soar above the crashing waves.", "expected_tokens": ["The", "seagulls", "soar", "above", "the", "crashing", "waves", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "I laugh as the ticklish feather brushes my skin.", "expected_tokens": ["I", "laugh", "as", "the", "ticklish", "feather", "brushes", "my", "skin", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The balloons float away into the clear blue sky.", "expected_tokens": ["The", "balloons", "float", "away", "into", "the", "clear", "blue", "sky", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The waves crash against the jagged rocks!", "expected_tokens": ["The", "waves", "crash", "against", "the", "jagged", "rocks", "!"]}
+{"test_type": "Punctuation, mixed case", "input_text": "The fireworks light up the night sky.", "expected_tokens": ["The", "fireworks", "light", "up", "the", "night", "sky", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "I have three favorite colors: blue, green, and yellow.", "expected_tokens": ["I", "have", "three", "favorite", "colors", ":", "blue", ",", "green", ",", "and", "yellow", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "She arrived late to the party; everyone had already left.", "expected_tokens": ["She", "arrived", "late", "to", "the", "party", ";", "everyone", "had", "already", "left", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The book is long, complex, and thought-provoking.", "expected_tokens": ["The", "book", "is", "long", ",", "complex", ",", "and", "thought-provoking", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "I need to buy several items: milk, eggs, bread, and butter.", "expected_tokens": ["I", "need", "to", "buy", "several", "items", ":", "milk", ",", "eggs", ",", "bread", ",", "and", "butter", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "He is smart, talented, and hardworking; he will succeed.", "expected_tokens": ["He", "is", "smart", ",", "talented", ",", "and", "hardworking", ";", "he", "will", "succeed", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "I enjoy outdoor activities: hiking, camping, and swimming.", "expected_tokens": ["I", "enjoy", "outdoor", "activities", ":", "hiking", ",", "camping", ",", "and", "swimming", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "She cooked a delicious dinner: roasted chicken, mashed potatoes, and steamed vegetables.", "expected_tokens": ["She", "cooked", "a", "delicious", "dinner", ":", "roasted", "chicken", ",", "mashed", "potatoes", ",", "and", "steamed", "vegetables", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The lecture was informative, engaging, and well-structured.", "expected_tokens": ["The", "lecture", "was", "informative", ",", "engaging", ",", "and", "well-structured", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "I visited three countries: France, Italy, and Spain.", "expected_tokens": ["I", "visited", "three", "countries", ":", "France", ",", "Italy", ",", "and", "Spain", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "The team worked hard to meet the deadline; they succeeded.", "expected_tokens": ["The", "team", "worked", "hard", "to", "meet", "the", "deadline", ";", "they", "succeeded", "."]}
+{"test_type": "Punctuation, mixed case", "input_text": "She wore a beautiful dress, adorned with pearls.", "expected_tokens": ["She", "wore", "a", "beautiful", "dress", ",", "adorned", "with", "pearls", "."]}
+{"test_type": "Hyphenated Words, No punctuation, Mixed case", "input_text": "I live in a small-sized house.", "expected_tokens": ["I", "live", "in", "a", "small-sized", "house"]}
+{"test_type": "Hyphenated Words, No punctuation, Mixed case", "input_text": "She is a well-known artist.", "expected_tokens": ["She", "is", "a", "well-known", "artist"]}
+{"test_type": "Hyphenated Words, No punctuation, Mixed case", "input_text": "He is a high-level executive.", "expected_tokens": ["He", "is", "a", "high-level", "executive"]}
+{"test_type": "Hyphenated Words, No punctuation, Mixed case", "input_text": "The dog has a curly-haired coat.", "expected_tokens": ["The", "dog", "has", "a", "curly-haired", "coat"]}
+{"test_type": "Hyphenated Words, No punctuation, Mixed case", "input_text": "I bought a second-hand car.", "expected_tokens": ["I", "bought", "a", "second-hand", "car"]}
+{"test_type": "Hyphenated Words, No punctuation, Mixed case", "input_text": "She has a part-time job.", "expected_tokens": ["She", "has", "a", "part-time", "job"]}
+{"test_type": "Hyphenated Words, No punctuation, Mixed case", "input_text": "He is a self-taught musician.", "expected_tokens": ["He", "is", "a", "self-taught", "musician"]}
+{"test_type": "Hyphenated Words, No punctuation, Mixed case", "input_text": "I prefer eco-friendly products.", "expected_tokens": ["I", "prefer", "eco-friendly", "products"]}
+{"test_type": "Hyphenated Words, No punctuation, Mixed case", "input_text": "She is a fast-paced runner.", "expected_tokens": ["She", "is", "a", "fast-paced", "runner"]}
+{"test_type": "Hyphenated Words, No punctuation, Mixed case", "input_text": "The tree has long-lasting leaves.", "expected_tokens": ["The", "tree", "has", "long-lasting", "leaves"]}
+{"test_type": "Hyphenated Words, Punctuation, Mixed case", "input_text": "I have a well-deserved break, finally!", "expected_tokens": ["I", "have", "a", "well-deserved", "break", ",", "finally", "!"]}
+{"test_type": "Hyphenated Words, Punctuation, Mixed case", "input_text": "She is a multi-talented artist: singer, dancer, and painter.", "expected_tokens": ["She", "is", "a", "multi-talented", "artist", ":", "singer", ",", "dancer", ",", "and", "painter", "."]}
+{"test_type": "Hyphenated Words, Punctuation, Mixed case", "input_text": "He has a work-life balance problem; he needs to take a vacation.", "expected_tokens": ["He", "has", "a", "work-life", "balance", "problem", ";", "he", "needs", "to", "take", "a", "vacation", "."]}
+{"test_type": "Hyphenated Words, Punctuation, Mixed case", "input_text": "The dog has a quick-wagging tail, excitedly!", "expected_tokens": ["The", "dog", "has", "a", "wagging", "tail", ",", "excitedly", "!"]}
+{"test_type": "Hyphenated Words, Punctuation, Mixed case", "input_text": "I bought a brand-new car, shiny and sleek.", "expected_tokens": ["I", "bought", "a", "brand-new", "car", ",", "shiny", "and", "sleek", "."]}
+{"test_type": "Hyphenated Words, Punctuation, Mixed case", "input_text": "She is a quick-witted, sharp-tongued individual!", "expected_tokens": ["She", "is", "a", "quick-witted", ",", "sharp-tongued", "individual", "!"]}
+{"test_type": "Hyphenated Words, Punctuation, Mixed case", "input_text": "He excels in problem-solving tasks: logical, analytical, and creative.", "expected_tokens": ["He", "excels", "in", "problem-solving", "tasks", ":", "logical", ",", "analytical", ",", "and", "creative", "."]}
+{"test_type": "Hyphenated Words, Punctuation, Mixed case", "input_text": "I have a love-hate relationship with spicy food.", "expected_tokens": ["I", "have", "a", "love-hate", "relationship", "with", "spicy", "food", "."]}
+{"test_type": "Hyphenated Words, Punctuation, Mixed case", "input_text": "She gave a tearful good-bye, waving until we couldn't see her anymore.", "expected_tokens": ["She", "gave", "a", "tearful", "good-bye", ",", "waving", "until", "we", "couldn't", "see", "her", "anymore", "."]}
+{"test_type": "Hyphenated Words, Punctuation, Mixed case", "input_text": "The train arrived late—almost an hour behind schedule.", "expected_tokens": ["The", "train", "arrived", "late", "—", "almost", "an", "hour", "behind", "schedule", "."]}
+{"test_type": "Emojis, Punctuation, Mixed case", "input_text": "I'm feeling 😊 today, ready to conquer the world!", "expected_tokens": ["I'm", "feeling", "😊", "today", ",", "ready", "to", "conquer", "the", "world", "!"]}
+{"test_type": "Emojis, Punctuation, Mixed case", "input_text": "She is a true friend ❤️, always there for me.", "expected_tokens": ["She", "is", "a", "true", "friend", "❤️", ",", "always", "there", "for", "me", "."]}
+{"test_type": "Emojis, Punctuation, Mixed case", "input_text": "He said, 'You're amazing! 😄'", "expected_tokens": ["He", "said", ",", "'You're", "amazing", "!", "😄", "'"]}
+{"test_type": "Emojis, Punctuation, Mixed case", "input_text": "The party was a blast 🎉, with music, dancing, and laughter.", "expected_tokens": ["The", "party", "was", "a", "blast", "🎉", ",", "with", "music", ",", "dancing", ",", "and", "laughter", "."]}
+{"test_type": "Emojis, Punctuation, Mixed case", "input_text": "I can't wait for the weekend! 🙌", "expected_tokens": ["I", "can't", "wait", "for", "the", "weekend", "!", "🙌"]}
+{"test_type": "Emojis, Punctuation, Mixed case", "input_text": "She exclaimed, 'That's hilarious! 😂'", "expected_tokens": ["She", "exclaimed", ",", "'That's", "hilarious", "!", "😂", "'"]}
+{"test_type": "Emojis, Punctuation, Mixed case", "input_text": "The sunset was breathtaking 🌅, painting the sky with vibrant colors.", "expected_tokens": ["The", "sunset", "was", "breathtaking", "🌅", ",", "painting", "the", "sky", "with", "vibrant", "colors", "."]}
+{"test_type": "Emojis, Punctuation, Mixed case", "input_text": "I'm enjoying a cup of coffee ☕️ and a good book.", "expected_tokens": ["I'm", "enjoying", "a", "cup", "of", "coffee", "☕️", "and", "a", "good", "book", "."]}
+{"test_type": "Emojis, Punctuation, Mixed case", "input_text": "He replied with a thumbs-up 👍 and a smile 😄.", "expected_tokens": ["He", "replied", "with", "a", "thumbs-up", "👍", "and", "a", "smile", "😄", "."]}
+{"test_type": "Emojis, Punctuation, Mixed case", "input_text": "I'm so excited for the vacation! ✈️🏖️", "expected_tokens": ["I'm", "so", "excited", "for", "the", "vacation", "!", "✈️🏖️"]}

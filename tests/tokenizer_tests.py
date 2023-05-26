@@ -24,7 +24,7 @@ if __name__ == '__main__':
     # Instantiate the tokenizer objects
     #tokenizer1 = Tokenizer(space_split)
     tokenizer1 = Tokenizer(punc_split)
-    examples = load_jsonl("tests/examples.jsonl")
+    examples = load_jsonl("tests/tokenizer_test_examples.jsonl")
     from collections import defaultdict
     
     example_suites = defaultdict(list)
@@ -44,7 +44,7 @@ if __name__ == '__main__':
         suite_stats[test_type]['Support'] = suite_results[test_type].testsRun
         suite_stats[test_type]['Percentage Failed'] = len(suite_results[test_type].failures)/suite_results[test_type].testsRun
 
-    print(suite_stats)
+    print(suite_stats
     # Run the test suites
     # Is verbose and shows errors
     # TODO: Is there a way of saving this info?
