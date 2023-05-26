@@ -1,7 +1,7 @@
 from collections import defaultdict
 import re
 
-from .utils import ProgressBar, PickleBaseClass
+from generic.utils import ProgressBar, PickleBaseClass
 
 def space_split(txt):
     '''
@@ -52,6 +52,7 @@ class Tokenizer(PickleBaseClass):
         self.itos = {}
         self.counts = defaultdict(int)
         self.tokenizer = tokenizer
+        self._trained = False
         
     def train(self, corpus, min_tok_count=1):
         '''
@@ -73,6 +74,7 @@ class Tokenizer(PickleBaseClass):
                 
                 
         self.itos = {idx:key for key,idx in self.stoi.items()}
+        self._trained = True
         
     def tokenize(self, string, wrap=False):
         encoded_string = self.encode(string, wrap=wrap)

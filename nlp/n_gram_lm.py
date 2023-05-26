@@ -1,7 +1,7 @@
 from collections import defaultdict
 from math import log,exp
 
-from .utils import ProgressBar,mean,n_grammer, PickleBaseClass
+from generic.utils import ProgressBar,mean,n_grammer, PickleBaseClass
 from tokenizers import Tokenizer
 
 # TODO: Add epsilon to avoid numeric issues

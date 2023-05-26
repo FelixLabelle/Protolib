@@ -1,7 +1,7 @@
 from collections import Counter
 import math
 
-from utils import geometric_mean, mean,n_grammer
+from generic.utils import geometric_mean, mean,n_grammer
 
 def MSE(xs,x_hats):
     assert(type(xs) == list and type(x_hats) == list)
