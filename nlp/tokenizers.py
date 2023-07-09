@@ -25,6 +25,7 @@ def punc_split(txt):
     return list(re.findall(r"\w+|\$[\d\.]+|\S+",txt))
 
 class Tokenizer(PickleBaseClass):
+    _class_version = "0.0.1"
     def __init__(self, tokenizer, additional_special_tokens = None):
         '''
             Inputs:

@@ -3,6 +3,9 @@ import math
 import pickle
 import time
 
+# TODO: Add code to ensure child class defines class variable "_class_version"
+# https://stackoverflow.com/questions/22046369/enforcing-class-variables-in-a-subclass
+# Inspired by: https://web.archive.org/web/20170707101422/http://pragmaticpython.com/2017/02/03/beeing-defensive-with-pickle-in-evolving-environment/
 class PickleBaseClass:
     def __init__(self):
         raise NotImplementedError
@@ -12,9 +15,21 @@ class PickleBaseClass:
             pickle.dump(self.__dict__,fh)
         
     def load(self, filename):
-        with open(filename +'.pkl','rb') as fh:
+        with open(filename,'rb') as fh:
             self.__dict__ = pickle.load(fh)
-
+            
+    def __getstate__(self):
+        if not hasattr(self, "_class_version"):
+            raise Exception("Your class must define _class_version class variable")
+        return dict(_class_version=self._class_version, **self.__dict__)
+        
+    def __setstate__(self, dict_):
+        version_present_in_pickle = dict_.pop("_class_version")
+        if version_present_in_pickle != self._class_version:
+            raise Exception("Class versions differ: in pickle file: {}, "
+                            "in current class definition: {}"
+                            .format(version_present_in_pickle,
+                                    self._class_version))
 def clip(val,limit):
     return min(val,limit)
     

@@ -44,7 +44,7 @@ if __name__ == '__main__':
         suite_stats[test_type]['Support'] = suite_results[test_type].testsRun
         suite_stats[test_type]['Percentage Failed'] = len(suite_results[test_type].failures)/suite_results[test_type].testsRun
 
-    print(suite_stats
+    print(suite_stats)
     # Run the test suites
     # Is verbose and shows errors
     # TODO: Is there a way of saving this info?

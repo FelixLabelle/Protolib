@@ -8,6 +8,7 @@ from tokenizers import Tokenizer
 eps = 10e-12
     
 class NGramLM(PickleBaseClass):
+    _class_version = "0.0.1"
     def __init__(self, n):
         assert(type(n) == int)
         assert(n >= 1)

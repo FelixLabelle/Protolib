@@ -47,6 +47,7 @@ class BitArray:
         self.bit_array[record] ^= mask
     
 class BloomFilter(PickleBaseClass):
+    _class_version = "0.0.1"
     def __init__(self, num_hashes, num_bits):
         assert(num_hashes > 0)
         self.num_hashes = num_hashes
