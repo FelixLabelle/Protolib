@@ -26,7 +26,7 @@ def punc_split(txt):
 
 class Tokenizer(PickleBaseClass):
     _class_version = "0.0.1"
-    def __init__(self, tokenizer, additional_special_tokens = None):
+    def __init__(self, tokenizer, additional_special_tokens = None, min_tok_count=1):
         '''
             Inputs:
                 tokenizer: function that takes in a string and returns and array of string (tokens)
@@ -34,6 +34,9 @@ class Tokenizer(PickleBaseClass):
             Outputs:
                 None
         '''
+        assert(type(min_tok_count) == int)
+        assert(min_tok_count >= 1)
+        self.min_tok_count = min_tok_count
         self.SOS = "<SOS>"
         self.EOS = "<EOS>"
         self.UNK = "<UNK>"
@@ -55,7 +58,7 @@ class Tokenizer(PickleBaseClass):
         self.tokenizer = tokenizer
         self._trained = False
         
-    def train(self, corpus, min_tok_count=1):
+    def train(self, corpus):
         '''
             Inputs:
                 corpus: array of strings representing your corpus (each string is an item
@@ -63,14 +66,12 @@ class Tokenizer(PickleBaseClass):
             Outputs:
                 None
         '''
-        assert(type(min_tok_count) == int)
-        assert(min_tok_count >= 1)
         for datum in ProgressBar(corpus):
             for token in self.tokenizer(datum):
                 self.counts[token] += 1
         
         for token, count in self.counts.items():
-            if count >= min_tok_count:
+            if count >= self.min_tok_count:
                 self.stoi[token] = len(self.stoi)
                 
                 
